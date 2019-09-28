@@ -4,6 +4,7 @@ CS118
 project 3: Riddikulus
 
 HIGH LEVEL DESIGN PSEUDOCODE:
+
 	simple-router.cpp:
 		handlePacket()
 		{
@@ -72,6 +73,7 @@ HIGH LEVEL DESIGN PSEUDOCODE:
 		}
 
 ENCOUTERED DIFFICULTIES: 
+
 	1. multiple router interfaces:
 		Multiple router interfaces meant that sometimes a packet that arrived on interface A 
 		might be destined to interface B's ip address. Also, care must be taken to ensure that 
@@ -80,10 +82,12 @@ ENCOUTERED DIFFICULTIES:
 		the ping response's source ip will not be the ip address of the interace that it exits out of.  
 
 ADDITIONAL LIBRARIES USED:
+
 	All libraries used were already included in the skeleton code. 
 
 
 OTHER ACKNOWLEDGMENTS:
+
 	1. Linux man pages: man7.org, linux.die.net
 	2. Online man pages/code example: tutorialspoint.com
 	3. Online man pages/code exmaple: cplusplus.com
